@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cs792.Physician.Physician_dashBoard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/Phy_dash_View"
+        android:drawableTop="@drawable/view_new"
+        android:background="@null"
+        android:text="View Patients"
+        android:onClick="viewPatients"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Phy_dash_discharge"
+        android:drawableTop="@drawable/discharge_new"
+        android:text="@string/Phy_dash_discharge"
+        android:background="@null"
+        android:onClick="dischargePatients"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Phy_dash_logout"
+        android:drawableTop="@drawable/logout"
+        android:text="Logout"
+        android:background="@null"
+        android:onClick="logoutUser"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/Phy_dash_Add"
+        android:drawableTop="@drawable/add_new"
+        android:background="@null"
+        android:text="Add Patient"
+        android:onClick="newPatient"
+        android:visibility="invisible"
+        />
+
+</com.cs792.Physician.Physician_dashBoard>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.cs792.Physician.Patient_DetailedView">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:id="@+id/Patient_Detailed_photo"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Patient_Detailed_Name"
+        android:layout_toRightOf="@+id/Patient_Detailed_photo"
+        android:layout_alignTop="@+id/Patient_Detailed_photo"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Patient_Detailed_status"
+        android:layout_toRightOf="@+id/Patient_Detailed_photo"
+        android:layout_below="@+id/Patient_Detailed_Name"
+        android:textSize="17dp"
+        android:layout_marginTop="1dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Patient_Detailed_SubmitDate"
+        android:layout_alignBottom="@+id/Patient_Detailed_photo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/patient_admit_date"
+        />
+    <ProgressBar
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_toRightOf="@+id/Patient_Detailed_photo"
+        android:layout_below="@+id/Patient_Detailed_status"
+        android:layout_marginTop="30dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="33"
+        android:indeterminate="false"/>
+    <TextView
+        android:id="@+id/Unacknowledged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Patient_Detailed_photo"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/red"
+        android:layout_below="@+id/Patient_Detailed_status"
+        android:text="UnAcknowledged"/>
+
+
+</RelativeLayout>
+<include layout="@layout/patient_expandable_view"
+         android:layout_width="fill_parent"
+         android:layout_height="345dp"></include>
+</LinearLayout>
+

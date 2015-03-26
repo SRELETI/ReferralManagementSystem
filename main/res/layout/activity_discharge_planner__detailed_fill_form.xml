@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.cs792.Physician.Physician_newPatient"
+              android:theme="@style/EditEvent_Layout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:animateLayoutChanges="true"
+        android:fillViewport="true">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|top">
+                <include layout="@layout/dischargeplanner_healthcarddetails"/>
+                <include layout="@layout/dischargeplanner_personaldetails"/>
+                <include layout="@layout/dischargeplanner_address"/>
+                <include layout="@layout/dischargeplanner_languages"/>
+                <include layout="@layout/dischargeplanner_relations"/>
+                <include layout="@layout/dischargeplanner_communityprovider"/>
+                <include layout="@layout/dischargeplanner_healthdata"/>
+                <include layout="@layout/dischargeplanner_referraldetails"/>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

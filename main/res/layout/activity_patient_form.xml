@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/NewPatient_personalDetailsForm">
+
+    <!-- Patient Details SubHeading-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewPatient_details"
+        android:text="@string/NewPatient_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@color/NewPatient_details"/>
+
+    <!-- First Name, Second Row of the form -->
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewPatient_firstNameEntered"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/NewPatient_firstName"
+        />
+
+    <!-- Last Name, Third Row of the form-->
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewPatient_lastNameEntered"
+        android:hint="@string/NewPatient_lastName"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Gender and Date of Birth, Fourth row of the form-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/NewPatient_gender"
+        android:text="@string/NewPatient_Gender"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.EditEvent_LabelSmall"/>
+    <CheckBox
+        android:id="@+id/NewPatient_checkFemale"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NewPatient_female"
+        android:layout_marginTop="5dp"
+        />
+
+    <CheckBox
+        android:id="@+id/NewPatient_checkMale"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NewPatient_male"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/NewPatient_DOB"
+        android:hint="@string/NewPatient_DOB"
+        android:layout_marginTop="10dp"
+        style="@style/TextAppearance.EditEvent_LabelSmall"/>
+    <LinearLayout
+        android:id="@+id/PatientForm_date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="-6dip"
+        android:animateLayoutChanges="false">
+
+    <Button
+        android:id="@+id/start_date"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:singleLine="true"
+        android:paddingRight="4dp"
+        style="@style/TextAppearance.EditEvent_SpinnerButton"
+        android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+</LinearLayout>

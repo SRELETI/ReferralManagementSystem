@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs792.projectapp" >
+
+    <uses-sdk />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:theme="@style/LoginScreenTheme" >
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/title_activity_login_screen"
+            android:parentActivityName=".MainScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cs792.projectapp.MainScreen" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".LoginScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cs792.projectapp.LoginScreen" />
+        </activity>
+        <activity
+            android:name="com.cs792.Physician.PhysicianMain"
+            android:label="@string/title_activity_physician_main" >
+        </activity>
+        <activity
+            android:name="com.cs792.Physician.Physician_newPatient"
+            android:label="@string/title_activity_physician_new_patient" >
+        </activity>
+        <activity
+            android:name="com.cs792.Physician.Physician_viewPatients"
+            android:label="@string/title_activity_physician_view_patients" >
+        </activity>
+        <activity
+            android:name="com.cs792.Physician.Patient_DetailedView"
+            android:label="@string/title_activity_patient__detailed_view" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlannerMain"
+            android:label="@string/title_activity_discharge_planner_main" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlanner_FillForms"
+            android:label="@string/title_activity_discharge_planner__fill_forms" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlanner_DetailedFillForm"
+            android:label="@string/title_activity_discharge_planner__detailed_fill_form" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlanner_submitForms"
+            android:label="@string/title_activity_discharge_planner_submit_forms" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlanner_submitDetailedForm"
+            android:label="@string/title_activity_discharge_planner_submit_detailed_form" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.CCAC_Main"
+            android:label="@string/title_activity_ccac__main" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.CCAC_viewAll"
+            android:label="@string/title_activity_ccac_view_all" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.CCAC_viewAssigned"
+            android:label="@string/title_activity_ccac_view_assigned" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.CCAC_DetailedViewAll"
+            android:label="@string/title_activity_ccac__detailed_view_all" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.CCAC_viewAssignedDetail"
+            android:label="@string/title_activity_ccac_view_assigned_detail" >
+        </activity>
+        <activity
+            android:name="com.cs792.CCAC.HospitalSelection"
+            android:label="@string/title_activity_hospital_selection" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.DischargePlanner_ViewStatus"
+            android:label="@string/title_activity_discharge_planner__view_status" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.Patients_UnAck_Details"
+            android:label="@string/title_activity_patients__un_ack__details" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.Patients_Assigned_Details"
+            android:label="@string/title_activity_patients__assigned__details" >
+        </activity>
+        <activity
+            android:name="com.cs792.DischargePlanner.Patients_Completed_Details"
+            android:label="@string/title_activity_patients__completed__details" >
+        </activity>
+    </application>
+
+</manifest>

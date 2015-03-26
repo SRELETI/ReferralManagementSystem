@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:background="@drawable/list_row_selector"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/Patient_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/Patient_fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Patient_photo"
+        android:layout_toRightOf="@+id/Patient_photo"
+        android:textSize="@dimen/patient_name"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Patient_Completestatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Patient_fullName"
+        android:layout_toRightOf="@+id/Patient_photo"
+        android:textSize="@dimen/status"
+        android:layout_marginTop="1dip"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Patient_submitDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/patient_admit_date"
+        android:textColor="@color/patient_admit_date"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Patient_idInvisible"/>
+
+</RelativeLayout>

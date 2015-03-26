@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Referral Manager</string>
+    <string name="AppDisplayName"><b>Referral Manager</b></string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings in Main Activity -->
+    <string name="Main_Physician"><b>Physician</b></string>
+    <string name="Main_DischargePlanner"><b>DischargePlanner</b></string>
+    <string name="Main_CCAC"><b>CCAC</b></string>
+
+    <!-- Strings in Login Activity -->
+    <string name="title_activity_login_screen">Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Login_userName">Username:</string>
+    <string name="Login_password">Password:</string>
+    <string name="Login_login">Login</string>
+    <string name="Login_register">New user? <b>Register</b></string>
+    <string name="Login_spinner_title">Select User Type</string>
+    <string name="Login_userType">User Type</string>
+
+    <!-- Strings in Register Activity -->
+    <string name="title_activity_register">Register</string>
+    <string name="Reg_userName">Username:</string>
+    <string name="Reg_password">Password:</string>
+    <string name="Reg_confirmPassword">Confirm Password:</string>
+    <string name="Reg_typePrompt">Choose a Type</string>
+    <string name="Reg_submitRegister">Register</string>
+    <string name="Reg_UserType">UserType</string>
+    <string name="title_activity_physician_main">Physician Dashboard</string>
+    <string name="title_activity_physician_new_patient">Add New Patient</string>
+    <string name="Reg_EmailText">Email:</string>
+
+    <!-- Strings in Physician DashBoard -->
+    <string name="Phy_dash_Add">Add New Patient</string>
+    <string name="Phy_dash_View">View Patients</string>
+    <string name="Phy_dash_discharge">Discharge Patient</string>
+    <string name="Phy_dash_logout">Logout</string>
+
+    <!-- Strings in Physician Add New Patient Form -->
+    <string name="Phy_add_Title">New Patient Form</string>
+
+    <!-- Strings in newPatient form -->
+    <string name="NewPatient_details">PERSONAL DETAILS</string>
+    <string name="NewPatient_firstName">First Name</string>
+    <string name="NewPatient_lastName">Last Name</string>
+    <string name="NewPatient_Gender">Gender</string>
+    <string name="NewPatient_DOB">Date Of Birth</string>
+    <string name="NewPatient_female">Female</string>
+    <string name="NewPatient_male">Male</string>
+    <string name="NewPatient_pickdate">Set DOB</string>
+    <string name="NewPatient_HomeAddress">HOME ADDRESS</string>
+    <string name="NewPatient_address">Address</string>
+    <string name="NewPatient_city">City</string>
+    <string name="NewPatient_province">Province</string>
+    <string name="NewPatient_postalCode">PostalCode</string>
+    <string name="NewPatient_telephone">Telephone</string>
+    <string name="NewPatient_altTelephone">Alternate Telephone</string>
+    <string name="NewPatient_treatmentAddress">ADDRESS FOR TREATMENT</string>
+    <string name="NewPatient_isSameAddress">Same as Home Address</string>
+    <string name="NewPatient_relations">PATIENT CONTACT PERSON</string>
+    <string name="NewPatient_personName">Person Name</string>
+    <string name="NewPatient_relationship">Relationship</string>
+    <string name="NewPatient_healthCardDetails">HEALTH CARD DETAILS</string>
+    <string name="NewPatient_cardNo">Card Number</string>
+    <string name="NewPatient_versionCode">Version Code</string>
+    <string name="NewPatient_issuedProvince">Issued Province</string>
+    <string name="NewPatient_healthIssues">HEALTH ISSUES</string>
+    <string name="NewPatient_allergies">Allergies</string>
+    <string name="NewPatient_save_label">Save</string>
+    <string name="NewPatient_discard_label">Cancel</string>
+    <string name="title_activity_physician_view_patients">View Patients</string>
+    <string name="Patient_Detailed_Discharge">Flag for discharge</string>
+
+    <string-array name="photos">
+        <item>@drawable/user</item>
+    </string-array>
+    <string name="title_activity_patient__detailed_view">Patient Dashboard</string>
+    <string name="title_activity_discharge_planner_main">DischargePlanner Dashboard</string>
+
+    <!-- Discharge Planner Strings -->
+
+    <string name="Discharge_fillForms">Fill Forms</string>
+    <string name="Discharge_viewForms">Submit Forms</string>
+    <string name="Discharge_viewStatus">View Status</string>
+    <string name="title_activity_discharge_planner__fill_forms">Select Form</string>
+    <string name="title_activity_discharge_planner__detailed_fill_form">Fill Form</string>
+    <string name="title_activity_discharge_planner_personal_details">DischargePlanner_personalDetails</string>
+    <string name="Discharge_comments">Comments</string>
+    <string name="DischargePlanner_wheelChair">WheelChair</string>
+    <string name="DischargePlanner_yes">Yes</string>
+    <string name="DischargePlanner_no">No</string>
+    <string name="DischargePlanner_medicalOrders">Medical Orders</string>
+    <string name="DischargePlanner_infectionControl">Infection Control</string>
+    <string name="DischargePlanner_speaksEnglish">Speaks English</string>
+    <string name="DischargePlanner_interpreter">Needs Interpreter</string>
+    <string name="DischargePlanner_primaryLanguage">Primary Language</string>
+    <string name="DischargePlanner_LanguageReqs">LANGUAGE REQUIREMENTS</string>
+    <string name="Discharge_serProviderFirstName">First Name</string>
+    <string name="Discharge_serProviderLastName">Last Name</string>
+    <string name="DischargePlanner_ServiceProvider">COMMUNITY HEALTH CARE PROVIDER</string>
+    <string name="DischargePlanner_contact">Contact Number</string>
+    <string name="DischargePlanner_dischargeSubmissionDate">Submission Date</string>
+    <string name="DischargePlanner_completedTitle">Title</string>
+    <string name="DischargePlanner_completedBy">Completed By</string>
+    <string name="DischargePlanner_facilityContact">Facility Contact Number</string>
+    <string name="DischargePlanner_ReferringUnit">Referring Facility/Unit</string>
+    <string name="DischargePlanner_ReferralReason">Referral Reason</string>
+    <string name="ReferralDiagnosis">Relevant Diagnosis for Referral</string>
+    <string name="DischargePlanner_referral">REFERRAL DETAILS</string>
+    <string name="DischargePlanner_english">English</string>
+    <string name="DischargePlanner_french">French</string>
+    <string name="DischargePlanner_other">Other</string>
+    <string name="title_activity_discharge_planner_submit_forms">Select Form</string>
+    <string name="title_activity_discharge_planner_submit_detailed_form">Submit Form</string>
+
+    <!--Strings in CCAC Activity -->
+    <string name="title_activity_ccac__main">CCAC Dashbaord</string>
+    <string name="CCAC_complete">Assign Forms</string>
+    <string name="CCAC_Assigned">Process Forms</string>
+    <string name="title_activity_ccac_view_all">View All</string>
+    <string name="title_activity_ccac_view_assigned">View Assigned</string>
+    <string name="title_activity_ccac__detailed_view_all">Patient Dashboard</string>
+    <string name="title_activity_ccac_view_assigned_detail">Patient Dashboard</string>
+    <string name="title_activity_hospital_selection">Select Hospital</string>
+    <string name="title_activity_hospital_selection_row_item">HospitalSelectionRowItem</string>
+    <string name="title_activity_discharge_planner__view_status">Status</string>
+    <string name="title_activity_fragment__un_ack">Fragment_UnAck</string>
+    <string name="title_activity_fragment__assigned">Fragment_Assigned</string>
+    <string name="title_activity_fragment__completed">Fragment_Completed</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_patients__un_ack__details">Patient Dashboard</string>
+    <string name="title_activity_patients__assigned__details">Patients_Dashboard</string>
+    <string name="title_activity_patients__completed__details">Patients_Dashboard</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.cs792.DischargePlanner.DischargePlannerMain">
+    <com.cs792.Physician.Physician_dashBoard xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:orientation="vertical" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/Phy_dash_Add"
+            android:drawableTop="@drawable/fill_form"
+            android:text="@string/Discharge_fillForms"
+            android:background="@null"
+            android:onClick="fillForms"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/Phy_dash_View"
+            android:drawableTop="@drawable/submit"
+            android:text="@string/Discharge_viewForms"
+            android:background="@null"
+            android:onClick="submitForms"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Phy_dash_discharge"
+            android:drawableTop="@drawable/status"
+            android:text="@string/Discharge_viewStatus"
+            android:background="@null"
+            android:onClick="viewStatus"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Phy_dash_logout"
+            android:drawableTop="@drawable/logout"
+            android:text="@string/Phy_dash_logout"
+            android:background="@null"
+            android:onClick="logoutUser"/>
+
+    </com.cs792.Physician.Physician_dashBoard>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.cs792.DischargePlanner.DischargePlanner_DetailedFillForm">
+    <item android:id="@+id/action_done"
+          android:alphabeticShortcut="d"
+          android:title="@string/NewPatient_save_label"
+          android:icon="@drawable/ic_action_accept"
+          android:showAsAction="withText|always" />
+    <item android:id="@+id/action_cancel"
+          android:alphabeticShortcut="c"
+          android:title="@string/NewPatient_discard_label"
+          android:icon="@drawable/ic_action_cancel"
+          android:showAsAction="withText|always"  />
+</menu>

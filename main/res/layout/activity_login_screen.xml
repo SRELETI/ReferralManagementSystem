@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LoginScreen"
+    android:orientation="vertical">
+
+    <!-- Displays the user type -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_loginType"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="50dp"
+         />
+
+    <!-- Enter UserName here -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_userEnteredText"
+        android:layout_alignBottom="@+id/Login_userName"
+        android:layout_toRightOf="@+id/Login_userName"
+        android:layout_marginLeft="34dp"
+        android:ems="10">
+        <requestFocus/>
+    </EditText>
+
+    <!-- Enter Password here -->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_passwordEntered"
+        android:inputType="textPassword"
+        android:layout_alignBottom="@+id/Login_password"
+        android:layout_toRightOf="@+id/Login_password"
+        android:layout_marginLeft="35dp"
+        android:ems="10"
+        />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/Login_LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_passwordEntered"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/Login_login"
+        android:background="@drawable/button_color3"
+        />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/Login_RegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="register"
+        android:layout_below="@+id/Login_LoginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/Login_register"
+        android:background="@drawable/button_color3"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+    <!-- username-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_userName"
+        android:text="@string/Login_userName"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Login_loginType"
+        android:layout_marginTop="90dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+    <!--Password-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_password"
+        android:text="@string/Login_password"
+        android:layout_alignLeft="@+id/Login_userName"
+        android:layout_below="@+id/Login_userName"
+        android:layout_marginTop="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    
+
+</RelativeLayout>

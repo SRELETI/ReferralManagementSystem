@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MainColor">#D6EBFF</color>
+    <color name="Phy_TitleColor">#040404</color>
+    <color name="Phy_subTitleColor">#343434</color>
+    <color name="Phy_divider">#b5b5b5</color>
+    <color name="NewPatient_details">#b0b0b0</color>
+
+
+    <color name="patient_problems">#666666</color>
+    <color name="patient_admit_date">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="red">#E11A1A</color>
+    <color name="green">#33D53E</color>
+    <color name="darkgreen">#245527</color>
+</resources>

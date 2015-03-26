@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/NewPatient_healthIssuesForm">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewPatient_healthIssues"
+        android:text="@string/NewPatient_healthIssues"
+        android:background="@color/NewPatient_details"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewPatient_Allergies"
+        android:hint="@string/NewPatient_allergies"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

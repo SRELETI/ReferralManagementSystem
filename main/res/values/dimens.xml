@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="patient_name">17dp</dimen>
+    <dimen name="status">15dip</dimen>
+    <dimen name="patient_problems">13dip</dimen>
+    <dimen name="patient_admit_date">12dip</dimen>
+</resources>

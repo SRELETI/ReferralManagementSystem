@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.cs792.DischargePlanner.DischargePlanner_FillForms">
+    <item android:id="@+id/home_Button"
+          android:title="Home"
+          android:orderInCategory="80"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="90"
+          app:showAsAction="never"/>
+    <item android:id="@+id/Menu_Logout"
+          android:title="Logout"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
